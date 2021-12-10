@@ -1,0 +1,18 @@
+.form-search{
+    width: max-content;
+ 
+}
+.menu-header{
+    padding-left: 50px;
+}
+.nav-menu::after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 0;
+    top: 10px;
+    border-left: solid 2px rgba(0,0,0,.1);
+    border-right: solid 2px rgba(255,255,255,.15);
+}
